@@ -1,4 +1,59 @@
-.container {
-    display: grid;
+.new-book-btn {
+    display: block;
+    margin: 0 auto;
+    padding: 20px;
+    font-size: 20px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}  
+
+form {
+    width: 500px;
+    margin: 50px auto;
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
 }
 
+
+label {
+    font-size: 18px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.book-card {
+    display: inline-block;
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+button {
+    padding: 10px 20px;
+    border: 2px solid #333;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+.read-status {
+    background-color:rgb(145, 145, 226);
+}
