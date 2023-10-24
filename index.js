@@ -41,7 +41,7 @@ function render() {
 }
 
 function addBookToLibrary() {
-    let title = document.querySelector(".title").value;
+    let title = document.getElementById("title").value;
     let author = document.getElementById("author").value;
     let pages = document.getElementById("pages").value;
     let read = document.getElementById("read").checked;
